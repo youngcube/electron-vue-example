@@ -31,10 +31,12 @@
 </template>
 
 <script>
+// import * as StrOperation from '../../../native'
   export default {
     data () {
       return {
-        electron: process.versions.electron,
+        // electron: process.versions.electron,
+        // electron: StrOperation.generateAuthorization(),
         name: this.$route.name,
         node: process.versions.node,
         path: this.$route.path,
